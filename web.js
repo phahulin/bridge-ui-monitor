@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
     res.json(result);
 });
 
-const PORT = Number(process.env.PORT) || 3000;
+const PORT = Number(process.env.PORT) || 4000;
 
 app.listen(PORT, function () {
     console.log('Listening on port ' + PORT);
